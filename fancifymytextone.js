@@ -35,7 +35,7 @@ function makeMoo(){
     const words = text.split(" ");
     const word = words.pop();
 
-    const sentence = document.getElementById("inputText-1").value=`${words.join(" ")} ${word} -Moo`;
+    const sentence = document.getElementById("inputText-1").value=`${words.join(" ")} ${word}-Moo`;
     document.getElementById("inputText-1").value=sentence.toUpperCase();
 
 }
